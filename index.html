@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Sushant ❤️ Roshani | Our Story</title>
+  <meta
+    name="description"
+    content="A little universe made with love for Roshani."
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="lightbox" id="lightbox">
+
+  <button id="closeLightbox">
+    ✕
+  </button>
+
+  <div class="lightbox-content">
+
+    <img
+      id="lightboxImg"
+      src=""
+      alt=""
+    >
+
+    <div class="memory-description">
+
+      <h3 id="memoryTitle"></h3>
+
+      <p id="memoryText"></p>
+
+    </div>
+
+  </div>
+
+</div>
+
+  <!-- ================= LOADER ================= -->
+  <div class="loader" id="loader">
+    <div class="loader-heart">❤️</div>
+    <h2>Preparing Your Universe...</h2>
+  </div>
+
+  <!-- ================= BACKGROUND ================= -->
+  <div class="stars" id="stars"></div>
+  <div class="floating-hearts" id="floatingHearts"></div>
+  <div class="cursor-glow"></div>
+
+  <!-- ================= MUSIC BUTTON ================= -->
+  <button class="music-btn" id="musicBtn" aria-label="Toggle Music">
+    🎵
+  </button>
+
+  <!-- Optional Music -->
+  <audio id="bgMusic" loop>
+    <source src="assets/music/music.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+
+    <div class="logo">
+      S ❤️ R
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#timer">Timer</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#gallery">Memories</a></li>
+      <li><a href="#letter">Letter</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+
+    <div class="hero-content reveal">
+
+      <p class="hero-top">
+        Our Story Written In The Stars
+      </p>
+
+      <h1>
+        Sushant
+        <span>❤️</span>
+        Roshani
+      </h1>
+
+      <p class="hero-subtitle">
+        Two strangers met through an online friend.
+        We never imagined that one conversation
+        would become something this beautiful.
+      </p>
+
+      <a href="#timer" class="hero-btn">
+        Begin Our Journey ✨
+      </a>
+
+    </div>
+
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+
+  </section>
+
+  <!-- ================= TIMER ================= -->
+  <section class="timer-section" id="timer">
+
+    <div class="section-heading reveal">
+      <h2>❤️ Our Time Together</h2>
+
+      <p>
+        Since April 14, 2025,
+        every second has become a memory.
+      </p>
+    </div>
+
+    <div class="timer-card reveal">
+
+      <div class="since-date">
+        Together Since
+        <strong>14 April 2025</strong>
+      </div>
+
+      <div class="counter-grid">
+
+        <div class="counter-box">
+          <h3 id="years">0</h3>
+          <span>Years</span>
+        </div>
+
+        <div class="counter-box">
+          <h3 id="months">0</h3>
+          <span>Months</span>
+        </div>
+
+        <div class="counter-box">
+          <h3 id="days">0</h3>
+          <span>Days</span>
+        </div>
+
+        <div class="counter-box">
+          <h3 id="hours">0</h3>
+          <span>Hours</span>
+        </div>
+
+        <div class="counter-box">
+          <h3 id="minutes">0</h3>
+          <span>Minutes</span>
+        </div>
+
+        <div class="counter-box">
+          <h3 id="seconds">0</h3>
+          <span>Seconds</span>
+        </div>
+
+      </div>
+
+      <p class="timer-message">
+        Every second is proof that we've kept choosing each other.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- ================= OUR STORY ================= -->
+  <section class="story-section" id="story">
+
+    <div class="section-heading reveal">
+      <h2>📖 Our Story</h2>
+      <p>A few pages from our little universe.</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-card reveal left">
+
+        <div class="timeline-icon">🌸</div>
+
+        <h3>April 14, 2025</h3>
+
+        <p>
+          The day our story officially began.
+          A simple conversation slowly turned into
+          something neither of us expected.
+        </p>
+
+      </div>
+
+      <div class="timeline-card reveal right">
+
+        <div class="timeline-icon">🎂</div>
+
+        <h3>Your Birthday</h3>
+
+        <p>
+          We went to a lake together.
+          A bee decided to bite your back and somehow
+          became one of our funniest memories.
+        </p>
+
+      </div>
+
+      <div class="timeline-card reveal left">
+
+        <div class="timeline-icon">💕</div>
+
+        <h3>Every Time We Met</h3>
+
+        <p>
+          Every time we met, I carried the memory of your presence with me like a warmth I never wanted to lose.
+        </p>
+
+      </div>
+
+      <div class="timeline-card reveal right">
+
+        <div class="timeline-icon">🥺</div>
+
+        <h3>My Little Crybaby</h3>
+
+        <p>
+          My little cry baby, I wish you could see yourself through my eyes. You're so much stronger and more beautiful than you think.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-card reveal left">
+
+        <div class="timeline-icon">😠</div>
+
+        <h3>My Angry Bird</h3>
+
+        <p>
+          My Angry Bird, you always get angry with me. But you always end up loving me more than before. 
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section class="gallery-section" id="gallery">
+
+    <div class="section-heading reveal">
+      <h2>🖼️ Our Memories</h2>
+      <p>Moments that deserve a place among the stars.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+    <div class="gallery-grid">
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/black.jpeg" alt="Memory 1">
+  </div>
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/hot.jpeg" alt="Memory 2">
+  </div>
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/you.jpeg" alt="Memory 3">
+  </div>
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/together.jpeg" alt="Memory 4">
+  </div>
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/photo3.jpeg" alt="Memory 4">
+  </div>
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/car.jpeg" alt="Memory 4">
+  </div>
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/us.jpeg" alt="Memory 4">
+  </div>
+
+  <div class="memory-card reveal">
+    <img src="assets/photos/photo2.jpeg" alt="Memory 4">
+  </div>
+
+</div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= LETTER ================= -->
+  <section class="letter-section" id="letter">
+
+    <div class="section-heading reveal">
+      <h2>💌 A Letter For You</h2>
+      <p>Open only when you're ready.</p>
+    </div>
+
+    <div class="envelope reveal" id="envelope">
+
+      <div class="envelope-cover">
+        <span>💌</span>
+      </div>
+
+      <div class="letter-content">
+
+        <h3>My love,</h3>
+
+        <p>
+Each time we saw each other, I never felt like it was just wasting time. Instead, I felt like I was making something to remember forever. Even your simplest times together turned out to be the most memorable ones.        </p>
+
+        <p>
+I don’t think that you are aware of how important you are for me. Even your smile, voice, and the conversation we share have a special effect on my surroundings. It often feels like time flies by very fast whenever I am with you, and goodbyes are never easy for me.        </p>
+
+        <p>
+Maybe I don’t always say what needs to be said,
+But every time I see you, my heart becomes a little fuller.
+Thank you for making even the simple moments into something beautiful. ❤️        </p>
+
+        <p class="signature">
+          I love you Babe ❤️
+          <br>
+          — Sushant
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FINAL ================= -->
+  <section class="final-section">
+
+    <div class="reveal">
+
+      <h2>
+        I Love You,
+        <span>Roshani ❤️</span>
+      </h2>
+
+      <p>
+        ∞ Forever and Always ∞
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- ================= JS ================= -->
+  <script src="script.js"></script>
+
+  <button id="closeLightbox">
+    ✕
+  </button>
+
+  <div class="lightbox-content">
+
+    <img
+      id="lightboxImg"
+      style="display:none"
+    />
+
+    <video
+      id="lightboxVideo"
+      controls
+      style="display:none"
+    >
+    </video>
+
+    <p id="lightboxText"></p>
+
+  </div>
+
+</div>
+
+</body>
+
+</html>
