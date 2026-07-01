@@ -1349,6 +1349,10 @@ body {
     font-size: 1.3rem;
     right: 20px;
     top: 20px;
+    position: fixed !important;
+    bottom: 90px !important;
+    right: 20px !important;
+    z-index: 999999 !important;
   }
 
   .theme-toggle {
